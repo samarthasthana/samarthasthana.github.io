@@ -1,0 +1,24 @@
+# Site settings. Change title, author and url to yours.
+title: "Agents at Home"
+description: "Notes from building self-hosted AI agents: what worked, what broke, and what it cost."
+author: "Samarth Asthana"
+url: "https://samarthasthana.github.io"
+baseurl: ""
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  hard_wrap: false
+
+permalink: /:year/:month/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
